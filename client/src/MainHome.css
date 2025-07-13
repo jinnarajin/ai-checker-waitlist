@@ -1,0 +1,102 @@
+.mainhome-container {
+  max-width: 420px;
+  margin: 60px auto 0 auto;
+  padding: 40px 24px 32px 24px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+  text-align: center;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+}
+
+.mainhome-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.mainhome-desc {
+  color: #666;
+  font-size: 1.08rem;
+  margin-bottom: 32px;
+}
+
+.mainhome-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.mainhome-btn {
+  padding: 16px 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #4f8cff 0%, #6fc3ff 100%);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.12s;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+}
+
+.mainhome-btn:hover {
+  background: linear-gradient(90deg, #357ae8 0%, #4f8cff 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.mainhome-guide {
+  text-align: center;
+  color: #666;
+  font-size: 1.08rem;
+  margin: 0 auto 24px auto;
+  max-width: 600px;
+  padding-top: 8vh;
+  line-height: 1.6;
+}
+
+.mainhome-main-container {
+  max-width: 700px;
+  margin: 60px auto;
+  font-family: 'sans-serif';
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px #ddd;
+  padding: 48px;
+}
+
+@media (max-width: 600px) {
+  .mainhome-guide {
+    font-size: 0.98rem;
+    padding-top: 4vh;
+    margin-bottom: 16px;
+    max-width: 98vw;
+  }
+  .mainhome-container {
+    max-width: 98vw;
+    margin: 15vh 1vw 0 1vw;
+    padding: 24px 6px 18px 6px;
+    border-radius: 10px;
+  }
+  .mainhome-title {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  .mainhome-desc {
+    font-size: 0.98rem;
+    margin-bottom: 18px;
+  }
+  .mainhome-btn {
+    font-size: 1rem;
+    padding: 12px 0;
+    border-radius: 7px;
+  }
+  .mainhome-main-container {
+    max-width: 98vw;
+    margin: 15vh 1vw 0 1vw;
+    padding: 18px 2vw 12px 2vw;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #eee;
+  }
+} 

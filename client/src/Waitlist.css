@@ -1,0 +1,104 @@
+.waitlist-container {
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 28px 24px 28px;
+}
+
+.waitlist-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.waitlist-desc {
+  text-align: center;
+  color: #888;
+  margin-bottom: 28px;
+  font-size: 1rem;
+}
+
+.waitlist-form input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.waitlist-form input:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
+
+.waitlist-form button {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #4f8cff 0%, #6fc3ff 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.waitlist-form button:hover {
+  background: linear-gradient(90deg, #357ae8 0%, #4f8cff 100%);
+}
+
+.waitlist-error {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.98rem;
+}
+
+.waitlist-success {
+  color: #2ecc71;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 40px 0;
+}
+
+@media (max-width: 600px) {
+  .waitlist-container {
+    max-width: 98vw;
+    margin: 24px 1vw;
+    padding: 20px 8px 16px 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .waitlist-title {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  .waitlist-desc {
+    font-size: 0.98rem;
+    margin-bottom: 18px;
+  }
+  .waitlist-form input {
+    font-size: 0.98rem;
+    padding: 10px 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+  }
+  .waitlist-form button {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 6px;
+  }
+  .waitlist-success {
+    font-size: 1rem;
+    margin: 24px 0;
+  }
+} 
